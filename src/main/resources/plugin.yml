@@ -1,0 +1,14 @@
+name: TestPlugin	
+main: io.github.ram229.testplugin.TestPlugin
+version: 0.1
+commands:
+  ryan:
+    description: This is Ryan's Command.
+    usage: /ryan
+    permission: TestPlugin.ryan
+    permission-message: You don't have permission to run the ryan command.
+  toggle:
+    description: Turns spongewalk on and off.
+    usage: /toggle
+    permission: TestPlugin.ryan
+    permission-message: You do not have permission to use spongewalk.
